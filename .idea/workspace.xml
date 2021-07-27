@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6eff645f-f244-4840-bcd9-c1ab5cc7c810" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/ch01/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch01/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notes/第1章 简介.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +33,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1vt9wqQ6FOxtBsL7uCB2rEhPm33" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -57,7 +64,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunManager">
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -90,16 +97,37 @@
       <option name="presentableId" value="Default" />
       <updated>1627370759955</updated>
       <workItem from="1627370763938" duration="2459000" />
+      <workItem from="1627385934560" duration="829000" />
+      <workItem from="1627387195665" duration="832000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="461" y="162" key="SettingsEditor" timestamp="1627372229822">
+    <state width="1877" height="225" key="GridCell.Tab.0.bottom" timestamp="1627375825709">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1627372229822" />
+    <state width="1877" height="225" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1627375825709" />
+    <state width="1877" height="225" key="GridCell.Tab.0.center" timestamp="1627375825709">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="225" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1627375825709" />
+    <state width="1877" height="225" key="GridCell.Tab.0.left" timestamp="1627375825708">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="225" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1627375825708" />
+    <state width="1877" height="225" key="GridCell.Tab.0.right" timestamp="1627375825709">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="225" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1627375825709" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1627387847789">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1627387847789" />
   </component>
 </project>
