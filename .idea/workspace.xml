@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6eff645f-f244-4840-bcd9-c1ab5cc7c810" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/notes/第01章 简介.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notes/第02章 线程安全性.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch01/Sequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch01/Sequence01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch01/UnsafeSequence01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ch01/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch01/UnsafeSequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes/第01章 简介.md" beforeDir="false" afterPath="$PROJECT_DIR$/notes/第01章 简介.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes/第02章 线程安全性.md" beforeDir="false" afterPath="$PROJECT_DIR$/notes/第02章 线程安全性.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +56,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/notes" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -79,6 +73,7 @@
       <recent name="ch01" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code\JavaConcurrencyInPracticeReadingNotes\src\main\java" />
       <recent name="D:\code\JavaConcurrencyInPracticeReadingNotes\notes" />
     </key>
   </component>
@@ -170,7 +165,7 @@
       <updated>1627370759955</updated>
       <workItem from="1627370763938" duration="2459000" />
       <workItem from="1627385934560" duration="829000" />
-      <workItem from="1627387195665" duration="3793000" />
+      <workItem from="1627387195665" duration="4888000" />
     </task>
     <servers />
   </component>
