@@ -10,7 +10,7 @@ import net.jcip.annotations.ThreadSafe;
  * @description:
  */
 @ThreadSafe
-public class Sequence {
+public class Sequence01 {
     @GuardedBy("this")
     private int value;
 
@@ -20,8 +20,8 @@ public class Sequence {
     }
 
     public static void main(String[] args) {
-        Sequence sequence = new Sequence();
-        for (int i = 0; i < 10; i++) {
+        Sequence01 sequence = new Sequence01();
+        for (int i = 0; i < 100; i++) {
             new Thread(() -> {
                 System.out.println("sequence.getNext() = " + sequence.getNext());
             }).start();

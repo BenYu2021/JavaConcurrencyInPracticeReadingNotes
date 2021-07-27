@@ -10,7 +10,7 @@ import net.jcip.annotations.NotThreadSafe;
  */
 
 @NotThreadSafe
-public class UnsafeSequence {
+public class UnsafeSequence01 {
     private int value;
 
     /**
@@ -19,12 +19,13 @@ public class UnsafeSequence {
      * @return
      */
     public int getNext() {
-        return value++;
+        System.out.println("value++ = " + value++);
+        return value;
     }
 
     public static void main(String[] args) {
-        UnsafeSequence unsafeSequence = new UnsafeSequence();
-        for (int i = 0; i < 10; i++) {
+        UnsafeSequence01 unsafeSequence = new UnsafeSequence01();
+        for (int i = 0; i < 1000; i++) {
             new Thread(() -> {
                 System.out.println("unsafeSequence.getNext() = " + unsafeSequence.getNext());
             }).start();
