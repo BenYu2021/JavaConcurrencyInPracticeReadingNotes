@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6eff645f-f244-4840-bcd9-c1ab5cc7c810" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/META-INF/application.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch02/CachedFactorizer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch02/CountingFactorizer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch02/LazyInitRace.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch02/LoggingWidget.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch02/StatelessFactorizer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch02/SynchronizedFactorizer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch02/UnsafeCachingFactorizer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch02/UnsafeCountingFactorizer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch02/Widget.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notes/第01章 简介.md" beforeDir="false" afterPath="$PROJECT_DIR$/notes/第01章 简介.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notes/第02章 线程安全性.md" beforeDir="false" afterPath="$PROJECT_DIR$/notes/第02章 线程安全性.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notes/第03章 对象的共享.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +59,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="C:/software/jar_lib/javax.transaction.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/notes" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -90,8 +77,8 @@
       <recent name="ch01" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\code\JavaConcurrencyInPracticeReadingNotes\src\main\java" />
       <recent name="D:\code\JavaConcurrencyInPracticeReadingNotes\notes" />
+      <recent name="D:\code\JavaConcurrencyInPracticeReadingNotes\src\main\java" />
     </key>
   </component>
   <component name="RunManager" selected="Application.UnsafeSequence01">
@@ -183,7 +170,8 @@
       <workItem from="1627370763938" duration="2459000" />
       <workItem from="1627385934560" duration="829000" />
       <workItem from="1627387195665" duration="9179000" />
-      <workItem from="1627426061837" duration="8855000" />
+      <workItem from="1627426061837" duration="9144000" />
+      <workItem from="1627472630968" duration="2689000" />
     </task>
     <servers />
   </component>
@@ -239,9 +227,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="679" y="481" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040@0.0.1920.1040" timestamp="1627396004715" />
-    <state x="-903" y="0" width="1392" height="1047" key="dock-window-1" timestamp="1627428296985">
+    <state x="-1338" y="13" width="1392" height="1047" maximized="true" key="dock-window-1" timestamp="1627472692175">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-903" y="0" width="1392" height="1047" key="dock-window-1/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1627428296985" />
+    <state x="-1338" y="13" width="1392" height="1047" maximized="true" key="dock-window-1/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1627472692175" />
+    <state x="633" y="0" width="1392" height="1047" maximized="true" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1627472643009" />
   </component>
 </project>
