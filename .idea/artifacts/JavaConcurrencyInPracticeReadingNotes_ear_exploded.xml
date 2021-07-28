@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ear" name="JavaConcurrencyInPracticeReadingNotes:ear exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/JavaConcurrencyInPracticeReadingNotes_ear_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="JavaConcurrencyInPracticeReadingNotes/javaeeApplication/javaEEApplication" />
+    </root>
+  </artifact>
+</component>

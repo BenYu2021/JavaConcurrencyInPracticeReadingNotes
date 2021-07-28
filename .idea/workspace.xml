@@ -2,6 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6eff645f-f244-4840-bcd9-c1ab5cc7c810" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/META-INF/application.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch02/CachedFactorizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch02/CountingFactorizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch02/LazyInitRace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch02/LoggingWidget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch02/StatelessFactorizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch02/SynchronizedFactorizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch02/UnsafeCachingFactorizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch02/UnsafeCountingFactorizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch02/Widget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notes/第01章 简介.md" beforeDir="false" afterPath="$PROJECT_DIR$/notes/第01章 简介.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notes/第02章 线程安全性.md" beforeDir="false" afterPath="$PROJECT_DIR$/notes/第02章 线程安全性.md" afterDir="false" />
     </list>
@@ -53,10 +65,14 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
+    <property name="last_opened_file_path" value="C:/software/jar_lib/javax.transaction.jar!/" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -70,6 +86,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ch02" />
       <recent name="ch01" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -165,7 +182,8 @@
       <updated>1627370759955</updated>
       <workItem from="1627370763938" duration="2459000" />
       <workItem from="1627385934560" duration="829000" />
-      <workItem from="1627387195665" duration="4888000" />
+      <workItem from="1627387195665" duration="9179000" />
+      <workItem from="1627426061837" duration="8855000" />
     </task>
     <servers />
   </component>
@@ -176,29 +194,54 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="655" y="328" key="FileChooserDialogImpl" timestamp="1627388984875">
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1627427470417">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="655" y="328" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1627388984875" />
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1627390304769">
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1627427470417" />
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1627426394832" />
+    <state x="580" y="198" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1627426174475">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1627390304769" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1627390304769">
+    <state x="580" y="198" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1627426174475" />
+    <state x="655" y="328" key="FileChooserDialogImpl" timestamp="1627426339463">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1627390304769" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1627390304769">
+    <state x="655" y="328" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1627426339463" />
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1627396576279">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1627390304769" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1627390304769">
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1627396576279" />
+    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1627396576279">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1627390304769" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1627388988216">
+    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1627396576279" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1627396576279">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1627388988216" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1627396576279" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1627396576279">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1627396576279" />
+    <state x="490" y="175" key="Maven.ArtifactSearchDialog" timestamp="1627395925116">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="490" y="175" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1627395925116" />
+    <state x="611" y="230" key="RollbackChangesDialog" timestamp="1627440070947">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="611" y="230" key="RollbackChangesDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1627440070947" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1627426354353">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1627426354353" />
+    <state x="679" y="481" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1627396004715">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="679" y="481" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040@0.0.1920.1040" timestamp="1627396004715" />
+    <state x="-903" y="0" width="1392" height="1047" key="dock-window-1" timestamp="1627428296985">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-903" y="0" width="1392" height="1047" key="dock-window-1/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1627428296985" />
   </component>
 </project>
