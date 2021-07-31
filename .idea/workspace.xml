@@ -2,24 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6eff645f-f244-4840-bcd9-c1ab5cc7c810" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/notes/第04章 对象的组合.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch04/BetterVector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch04/Counter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch04/DelegatingVehicleTracker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch04/ImprovedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch04/ListHelpers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch04/MonitorVehicleTracker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch04/MutablePoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch04/NumberRange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch04/PersonSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch04/Point.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch04/PrivateLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch04/PublishingVehicleTracker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch04/SafePoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch04/VisualComponent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notes/第01章 简介.md" beforeDir="false" afterPath="$PROJECT_DIR$/notes/第01章 简介.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notes/第02章 线程安全性.md" beforeDir="false" afterPath="$PROJECT_DIR$/notes/第02章 线程安全性.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notes/第03章 对象的共享.md" beforeDir="false" afterPath="$PROJECT_DIR$/notes/第03章 对象的共享.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes/第04章 对象的组合.md" beforeDir="false" afterPath="$PROJECT_DIR$/notes/第04章 对象的组合.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,7 +182,7 @@
       <workItem from="1627515452391" duration="5572000" />
       <workItem from="1627558438962" duration="7002000" />
       <workItem from="1627602281693" duration="8434000" />
-      <workItem from="1627684723396" duration="10566000" />
+      <workItem from="1627684723396" duration="11037000" />
     </task>
     <servers />
   </component>
@@ -267,10 +250,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1627518812196" />
-    <state x="-1076" y="7" width="1182" height="1027" key="dock-window-1" timestamp="1627697214452">
+    <state x="-1076" y="7" width="1182" height="1027" maximized="true" key="dock-window-1" timestamp="1627700150858">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1076" y="7" width="1182" height="1027" key="dock-window-1/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1627697214452" />
+    <state x="-1076" y="7" width="1182" height="1027" maximized="true" key="dock-window-1/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1627700150858" />
     <state x="735" y="7" width="1192" height="1027" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1627614778683" />
     <state x="403" y="241" width="1235" height="797" key="find.popup" timestamp="1627697184729">
       <screen x="0" y="0" width="1920" height="1040" />
