@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6eff645f-f244-4840-bcd9-c1ab5cc7c810" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch06/SingleThreadWebServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notes/第06章 任务执行.md" beforeDir="false" afterPath="$PROJECT_DIR$/notes/第06章 任务执行.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ch05/Memoizer1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch05/Memoizer1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/Ch06.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/Ch06.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,7 +192,7 @@
       <workItem from="1627802003148" duration="3167000" />
       <workItem from="1627805591060" duration="4444000" />
       <workItem from="1627813344461" duration="53000" />
-      <workItem from="1627820342314" duration="1386000" />
+      <workItem from="1627820342314" duration="3235000" />
     </task>
     <servers />
   </component>
@@ -267,11 +264,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1627518812196" />
-    <state x="-1087" y="0" width="1103" height="817" key="dock-window-1" timestamp="1627821478503">
+    <state x="-1087" y="0" width="1103" height="817" maximized="true" key="dock-window-1" timestamp="1627822231679">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="540" y="117" width="1182" height="1027" key="dock-window-1/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1627777802574" />
-    <state x="-1087" y="0" width="1103" height="817" key="dock-window-1/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1627821478503" />
+    <state x="-1087" y="0" width="1103" height="817" maximized="true" key="dock-window-1/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1627822231679" />
     <state x="735" y="7" width="1192" height="1027" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1627614778683" />
     <state x="233" y="243" width="1415" height="797" key="find.popup" timestamp="1627808140674">
       <screen x="0" y="0" width="1920" height="1040" />
