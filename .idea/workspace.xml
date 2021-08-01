@@ -2,21 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6eff645f-f244-4840-bcd9-c1ab5cc7c810" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/notes/第05章 基础构建模块.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch05/BoundedHashSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch05/CellularAutomata.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch05/Factorizer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch05/HiddenIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch05/LaunderThrowable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch05/Memoizer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch05/Memoizer1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch05/Memoizer2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch05/Memoizer3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch05/Preloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch05/ProducerConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch05/TaskRunnable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch05/TestHarness.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch05jdk/CountDownLatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch06/SingleThreadWebServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes/第06章 任务执行.md" beforeDir="false" afterPath="$PROJECT_DIR$/notes/第06章 任务执行.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ch05/Memoizer1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch05/Memoizer1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/Ch06.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/Ch06.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,10 +77,10 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\code\JavaConcurrencyInPracticeReadingNotes\src\main\java" />
-      <recent name="D:\code\JavaConcurrencyInPracticeReadingNotes\src\main" />
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\code\JavaConcurrencyInPracticeReadingNotes\notes" />
+      <recent name="D:\code\JavaConcurrencyInPracticeReadingNotes\src\main\lang" />
+      <recent name="D:\code\JavaConcurrencyInPracticeReadingNotes\src\main\java" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="ch05jdk" />
@@ -99,19 +89,19 @@
       <recent name="ch03" />
       <recent name="ch02" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\code\JavaConcurrencyInPracticeReadingNotes\notes" />
-      <recent name="D:\code\JavaConcurrencyInPracticeReadingNotes\src\main\lang" />
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\code\JavaConcurrencyInPracticeReadingNotes\src\main\java" />
+      <recent name="D:\code\JavaConcurrencyInPracticeReadingNotes\src\main" />
+      <recent name="D:\code\JavaConcurrencyInPracticeReadingNotes\notes" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NoVisibility">
-    <configuration name="NoVisibility" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch03.NoVisibility" />
+  <component name="RunManager" selected="Application.SingleThreadWebServer">
+    <configuration name="Ch06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.Ch06" />
       <module name="JavaConcurrencyInPracticeReadingNotes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch03.*" />
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch01.Sequence" />
+    <configuration name="NoVisibility" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch03.NoVisibility" />
       <module name="JavaConcurrencyInPracticeReadingNotes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch01.*" />
+          <option name="PATTERN" value="ch03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,12 +135,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UnsafeSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch01.UnsafeSequence" />
+    <configuration name="SingleThreadWebServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch06.SingleThreadWebServer" />
       <module name="JavaConcurrencyInPracticeReadingNotes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch01.*" />
+          <option name="PATTERN" value="ch06.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -173,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SingleThreadWebServer" />
+        <item itemvalue="Application.Ch06" />
         <item itemvalue="Application.NoVisibility" />
         <item itemvalue="Application.UnsafeSequence01" />
         <item itemvalue="Application.Sequence01" />
-        <item itemvalue="Application.Sequence" />
-        <item itemvalue="Application.UnsafeSequence" />
       </list>
     </recent_temporary>
   </component>
@@ -203,7 +193,9 @@
       <workItem from="1627731280076" duration="9841000" />
       <workItem from="1627774661118" duration="7145000" />
       <workItem from="1627802003148" duration="3167000" />
-      <workItem from="1627805591060" duration="3005000" />
+      <workItem from="1627805591060" duration="4444000" />
+      <workItem from="1627813344461" duration="53000" />
+      <workItem from="1627820342314" duration="1386000" />
     </task>
     <servers />
   </component>
@@ -214,6 +206,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="552" y="178" key="#Notifications" timestamp="1627820352311">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#Notifications/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1627820352311" />
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1627520136488">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -231,25 +227,25 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="655" y="328" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1627426339463" />
-    <state width="1877" height="182" key="GridCell.Tab.0.bottom" timestamp="1627481210999">
+    <state width="1877" height="182" key="GridCell.Tab.0.bottom" timestamp="1627821480014">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="182" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1627481210999" />
+    <state width="1877" height="182" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1627821480014" />
     <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1627396576279" />
-    <state width="1877" height="182" key="GridCell.Tab.0.center" timestamp="1627481210999">
+    <state width="1877" height="182" key="GridCell.Tab.0.center" timestamp="1627821480014">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="182" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1627481210999" />
+    <state width="1877" height="182" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1627821480014" />
     <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1627396576279" />
-    <state width="1877" height="182" key="GridCell.Tab.0.left" timestamp="1627481210999">
+    <state width="1877" height="182" key="GridCell.Tab.0.left" timestamp="1627821480013">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="182" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1627481210999" />
+    <state width="1877" height="182" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1627821480013" />
     <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1627396576279" />
-    <state width="1877" height="182" key="GridCell.Tab.0.right" timestamp="1627481210999">
+    <state width="1877" height="182" key="GridCell.Tab.0.right" timestamp="1627821480014">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="182" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1627481210999" />
+    <state width="1877" height="182" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1627821480014" />
     <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1627396576279" />
     <state x="490" y="175" key="Maven.ArtifactSearchDialog" timestamp="1627395925116">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -271,11 +267,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1627518812196" />
-    <state x="-1055" y="-14" width="1119" height="1027" maximized="true" key="dock-window-1" timestamp="1627809420889">
+    <state x="-1087" y="0" width="1103" height="817" key="dock-window-1" timestamp="1627821478503">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="540" y="117" width="1182" height="1027" key="dock-window-1/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1627777802574" />
-    <state x="-1055" y="-14" width="1119" height="1027" maximized="true" key="dock-window-1/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1627809420889" />
+    <state x="-1087" y="0" width="1103" height="817" key="dock-window-1/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1627821478503" />
     <state x="735" y="7" width="1192" height="1027" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1627614778683" />
     <state x="233" y="243" width="1415" height="797" key="find.popup" timestamp="1627808140674">
       <screen x="0" y="0" width="1920" height="1040" />
