@@ -2,7 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6eff645f-f244-4840-bcd9-c1ab5cc7c810" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/notes/第04章 对象的组合.md" beforeDir="false" afterPath="$PROJECT_DIR$/notes/第04章 对象的组合.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notes/第05章 基础构建模块.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch05/BoundedHashSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch05/CellularAutomata.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch05/Factorizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch05/HiddenIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch05/LaunderThrowable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch05/Memoizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch05/Memoizer1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch05/Memoizer2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch05/Memoizer3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch05/Preloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch05/ProducerConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch05/TaskRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch05/TestHarness.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch05jdk/CountDownLatch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +40,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -78,9 +93,11 @@
       <recent name="D:\code\JavaConcurrencyInPracticeReadingNotes\notes" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ch05jdk" />
+      <recent name="" />
+      <recent name="ch05" />
       <recent name="ch03" />
       <recent name="ch02" />
-      <recent name="ch01" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\code\JavaConcurrencyInPracticeReadingNotes\notes" />
@@ -182,7 +199,11 @@
       <workItem from="1627515452391" duration="5572000" />
       <workItem from="1627558438962" duration="7002000" />
       <workItem from="1627602281693" duration="8434000" />
-      <workItem from="1627684723396" duration="11037000" />
+      <workItem from="1627684723396" duration="11645000" />
+      <workItem from="1627731280076" duration="9841000" />
+      <workItem from="1627774661118" duration="7145000" />
+      <workItem from="1627802003148" duration="3167000" />
+      <workItem from="1627805591060" duration="3005000" />
     </task>
     <servers />
   </component>
@@ -197,10 +218,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1627520136488" />
-    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1627698167290">
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1627808045123">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1627698167290" />
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1627808045123" />
     <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1627426394832" />
     <state x="580" y="198" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1627426174475">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -250,18 +271,27 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1627518812196" />
-    <state x="-1076" y="7" width="1182" height="1027" maximized="true" key="dock-window-1" timestamp="1627700150858">
+    <state x="-1055" y="-14" width="1119" height="1027" maximized="true" key="dock-window-1" timestamp="1627809420889">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1076" y="7" width="1182" height="1027" maximized="true" key="dock-window-1/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1627700150858" />
+    <state x="540" y="117" width="1182" height="1027" key="dock-window-1/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1627777802574" />
+    <state x="-1055" y="-14" width="1119" height="1027" maximized="true" key="dock-window-1/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1627809420889" />
     <state x="735" y="7" width="1192" height="1027" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1627614778683" />
-    <state x="403" y="241" width="1235" height="797" key="find.popup" timestamp="1627697184729">
+    <state x="233" y="243" width="1415" height="797" key="find.popup" timestamp="1627808140674">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="403" y="241" width="1235" height="797" key="find.popup/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1627697184729" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1627607109680">
+    <state x="233" y="243" width="1415" height="797" key="find.popup/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1627808140674" />
+    <state x="593" y="214" key="new project wizard" timestamp="1627732811096">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1627607109680" />
+    <state x="593" y="214" key="new project wizard/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1627732811096" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1627805626055">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1627805626055" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1627736970501">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1627736970501" />
   </component>
 </project>
