@@ -2,16 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6eff645f-f244-4840-bcd9-c1ab5cc7c810" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/notes/第07章 取消与关闭.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch07/BrokenPrimeProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch07/NoncancelableTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch07/PrimeGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch07/PrimeProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch07/ReaderThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch07/SocketUsingTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch07/TimedRun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch07/TimedRun1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch07/TimedRun2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch07/CheckForMail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch07/IndexingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch07/LogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch07/LogService1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch07/LogWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch07/TrackingExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch07/UEHLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch07/WebCrawler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes/第06章 任务执行.md" beforeDir="false" afterPath="$PROJECT_DIR$/notes/第06章 任务执行.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes/第07章 取消与关闭.md" beforeDir="false" afterPath="$PROJECT_DIR$/notes/第07章 取消与关闭.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/test/Ch06.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/Ch06.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -102,25 +103,25 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\code\JavaConcurrencyInPracticeReadingNotes\notes" />
-      <recent name="D:\code\JavaConcurrencyInPracticeReadingNotes\src\main\lang" />
-      <recent name="D:\code\JavaConcurrencyInPracticeReadingNotes\src\main\java" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="test" />
-      <recent name="ch07" />
-      <recent name="ch06" />
-      <recent name="ch05jdk" />
-      <recent name="" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\code\JavaConcurrencyInPracticeReadingNotes\src\main\java" />
       <recent name="D:\code\JavaConcurrencyInPracticeReadingNotes\src\main" />
       <recent name="D:\code\JavaConcurrencyInPracticeReadingNotes\notes" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ch07" />
+      <recent name="test" />
+      <recent name="ch06" />
+      <recent name="ch05jdk" />
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code\JavaConcurrencyInPracticeReadingNotes\notes" />
+      <recent name="D:\code\JavaConcurrencyInPracticeReadingNotes\src\main\lang" />
+      <recent name="D:\code\JavaConcurrencyInPracticeReadingNotes\src\main\java" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.PrimeGenerator">
+  <component name="RunManager" selected="Application.Ch06">
     <configuration name="Ch06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.Ch06" />
       <module name="JavaConcurrencyInPracticeReadingNotes" />
@@ -187,8 +188,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PrimeGenerator" />
         <item itemvalue="Application.Ch06" />
+        <item itemvalue="Application.PrimeGenerator" />
         <item itemvalue="Application.OutOfTime" />
         <item itemvalue="Application.OutOfTime (1)" />
         <item itemvalue="Application.TaskExecutionWebServer" />
@@ -224,7 +225,8 @@
       <workItem from="1627813344461" duration="53000" />
       <workItem from="1627820342314" duration="10019000" />
       <workItem from="1627859685821" duration="6557000" />
-      <workItem from="1627866828447" duration="11919000" />
+      <workItem from="1627866828447" duration="12208000" />
+      <workItem from="1627903909096" duration="9430000" />
     </task>
     <servers />
   </component>
@@ -235,10 +237,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="178" key="#Notifications" timestamp="1627860032094">
+    <state x="552" y="178" key="#Notifications" timestamp="1627903923398">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="178" key="#Notifications/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1627860032094" />
+    <state x="552" y="178" key="#Notifications/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1627903923398" />
     <state x="653" y="176" key="#OutOfTime_(1)" timestamp="1627829729663">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -247,10 +249,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1627520136488" />
-    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1627887245396">
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1627912061186">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1627887245396" />
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1627912061186" />
     <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1627426394832" />
     <state x="580" y="198" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1627426174475">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -260,25 +262,25 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="655" y="328" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1627426339463" />
-    <state width="1877" height="67" key="GridCell.Tab.0.bottom" timestamp="1627889257041">
+    <state width="1877" height="349" key="GridCell.Tab.0.bottom" timestamp="1627913493186">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="67" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1627889257041" />
+    <state width="1877" height="349" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1627913493186" />
     <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1627396576279" />
-    <state width="1877" height="67" key="GridCell.Tab.0.center" timestamp="1627889257041">
+    <state width="1877" height="349" key="GridCell.Tab.0.center" timestamp="1627913493186">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="67" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1627889257041" />
+    <state width="1877" height="349" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1627913493186" />
     <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1627396576279" />
-    <state width="1877" height="67" key="GridCell.Tab.0.left" timestamp="1627889257041">
+    <state width="1877" height="349" key="GridCell.Tab.0.left" timestamp="1627913493185">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="67" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1627889257041" />
+    <state width="1877" height="349" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1627913493185" />
     <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1627396576279" />
-    <state width="1877" height="67" key="GridCell.Tab.0.right" timestamp="1627889257041">
+    <state width="1877" height="349" key="GridCell.Tab.0.right" timestamp="1627913493186">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="67" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1627889257041" />
+    <state width="1877" height="349" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1627913493186" />
     <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1627396576279" />
     <state x="490" y="175" key="Maven.ArtifactSearchDialog" timestamp="1627395925116">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -300,20 +302,20 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1627518812196" />
-    <state x="-1226" y="0" width="1099" height="1047" key="dock-window-1" timestamp="1627888491830">
+    <state x="-1059" y="0" width="1066" height="1047" key="dock-window-1" timestamp="1627910716598">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="540" y="117" width="1182" height="1027" key="dock-window-1/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1627777802574" />
-    <state x="-1226" y="0" width="1099" height="1047" key="dock-window-1/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1627888491830" />
+    <state x="-1059" y="0" width="1066" height="1047" key="dock-window-1/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1627910716598" />
     <state x="735" y="7" width="1192" height="1027" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1627614778683" />
     <state x="-1308" y="0" width="1324" height="932" key="dock-window-2" timestamp="1627883479220">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1308" y="0" width="1324" height="932" key="dock-window-2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1627883479220" />
-    <state x="233" y="243" width="1415" height="797" key="find.popup" timestamp="1627887052347">
+    <state x="233" y="243" width="1415" height="797" key="find.popup" timestamp="1627912039111">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="233" y="243" width="1415" height="797" key="find.popup/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1627887052347" />
+    <state x="233" y="243" width="1415" height="797" key="find.popup/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1627912039111" />
     <state x="593" y="214" key="new project wizard" timestamp="1627732811096">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -322,9 +324,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1627805626055" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1627884818193">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1627911214788">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1627884818193" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1627911214788" />
   </component>
 </project>

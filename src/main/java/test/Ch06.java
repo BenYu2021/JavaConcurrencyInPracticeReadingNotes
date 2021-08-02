@@ -1,5 +1,6 @@
 package test;
 
+import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 
 import static ch05.LaunderThrowable.launderThrowable;
@@ -13,8 +14,5 @@ import static ch05.LaunderThrowable.launderThrowable;
 public class Ch06 {
 
     public static void main(String[] args) {
-//        Future
-//        launderThrowable(new Throwable())
-//        CancellableTask
     }
 }
