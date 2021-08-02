@@ -33,10 +33,8 @@
  * http://creativecommons.org/publicdomain/zero/1.0/
  */
 
-package ch05jdk;
+package java.util.concurrent;
 
-import java.util.concurrent.CyclicBarrier;
-import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.AbstractQueuedSynchronizer;
 
 /**
@@ -276,7 +274,7 @@ public class CountDownLatch {
      *         while waiting
      */
     public boolean await(long timeout, TimeUnit unit)
-        throws InterruptedException {
+            throws InterruptedException {
         return sync.tryAcquireSharedNanos(1, unit.toNanos(timeout));
     }
 
