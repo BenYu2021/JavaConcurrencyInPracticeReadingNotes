@@ -2,6 +2,8 @@ package test;
 
 import java.util.concurrent.Future;
 
+import static ch05.LaunderThrowable.launderThrowable;
+
 /**
  * @author: ymm
  * @date: 2021/8/1
@@ -12,5 +14,7 @@ public class Ch06 {
 
     public static void main(String[] args) {
 //        Future
+//        launderThrowable(new Throwable())
+//        CancellableTask
     }
 }
