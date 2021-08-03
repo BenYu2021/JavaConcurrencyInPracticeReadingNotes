@@ -2,7 +2,7 @@
 ![alt Java并发编程实战](./images/《Java并发编程实战》封面.jpg "《Java并发编程实战》")  
 《Java并发编程实战》图书主页：<https://jcip.net/>  
 《Java并发编程实战》笔记
-# [第1章 简介](https://github.com/BenYu2021/JavaConcurrencyInPracticeReadingNotes/blob/main/notes/%E7%AC%AC01%E7%AB%A0%20%E7%AE%80%E4%BB%8B.md)
+# [第1章 简介](./notes/第01章 简介.md)
 # [第2章 线程安全性](https://github.com/BenYu2021/JavaConcurrencyInPracticeReadingNotes/blob/main/notes/%E7%AC%AC02%E7%AB%A0%20%E7%BA%BF%E7%A8%8B%E5%AE%89%E5%85%A8%E6%80%A7.md)
 # [第3章 对象的共享](https://github.com/BenYu2021/JavaConcurrencyInPracticeReadingNotes/blob/main/notes/%E7%AC%AC03%E7%AB%A0%20%E5%AF%B9%E8%B1%A1%E7%9A%84%E5%85%B1%E4%BA%AB.md)
 # [第4章 对象的组合](https://github.com/BenYu2021/JavaConcurrencyInPracticeReadingNotes/blob/main/notes/%E7%AC%AC04%E7%AB%A0%20%E5%AF%B9%E8%B1%A1%E7%9A%84%E7%BB%84%E5%90%88.md)

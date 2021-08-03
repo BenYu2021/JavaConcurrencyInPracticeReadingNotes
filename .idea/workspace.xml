@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6eff645f-f244-4840-bcd9-c1ab5cc7c810" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/notes/第13章 显示锁.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notes/第14章 构建自定义的同步工具.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notes/第15章 原子变量与非阻塞同步机制.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notes/第16章 Java内存模型.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch13/ReadWriteMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notes/第08章 线程池的使用.md" beforeDir="false" afterPath="$PROJECT_DIR$/notes/第08章 线程池的使用.md" afterDir="false" />
-    </list>
+    <list default="true" id="6eff645f-f244-4840-bcd9-c1ab5cc7c810" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -103,6 +96,7 @@
       <recent name="D:\code\JavaConcurrencyInPracticeReadingNotes\notes" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code\JavaConcurrencyInPracticeReadingNotes\images" />
       <recent name="D:\code\JavaConcurrencyInPracticeReadingNotes\src\main\java" />
       <recent name="D:\code\JavaConcurrencyInPracticeReadingNotes\notes" />
       <recent name="D:\code\JavaConcurrencyInPracticeReadingNotes\src\main\lang" />
@@ -225,7 +219,7 @@
       <workItem from="1627866828447" duration="12208000" />
       <workItem from="1627903909096" duration="11173000" />
       <workItem from="1627948595195" duration="13511000" />
-      <workItem from="1627988698211" duration="2981000" />
+      <workItem from="1627988698211" duration="3706000" />
     </task>
     <servers />
   </component>
