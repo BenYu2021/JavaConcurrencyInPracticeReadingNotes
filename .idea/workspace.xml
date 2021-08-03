@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6eff645f-f244-4840-bcd9-c1ab5cc7c810" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/notes/第09章 图形界面与应用程序.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notes/第10章 避免活跃性危险.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notes/第11章 性能与可伸缩性.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notes/第12章 并发程序测试.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +82,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/notes" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -92,15 +96,13 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\code\JavaConcurrencyInPracticeReadingNotes\src\main\java" />
-      <recent name="D:\code\JavaConcurrencyInPracticeReadingNotes\src\main" />
-      <recent name="D:\code\JavaConcurrencyInPracticeReadingNotes\notes" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ch08" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code\JavaConcurrencyInPracticeReadingNotes\notes" />
       <recent name="D:\code\JavaConcurrencyInPracticeReadingNotes\images" />
       <recent name="D:\code\JavaConcurrencyInPracticeReadingNotes\src\main\java" />
-      <recent name="D:\code\JavaConcurrencyInPracticeReadingNotes\notes" />
       <recent name="D:\code\JavaConcurrencyInPracticeReadingNotes\src\main\lang" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -110,8 +112,10 @@
       <recent name="ch06" />
       <recent name="ch05jdk" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="ch08" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\code\JavaConcurrencyInPracticeReadingNotes\src\main\java" />
+      <recent name="D:\code\JavaConcurrencyInPracticeReadingNotes\src\main" />
+      <recent name="D:\code\JavaConcurrencyInPracticeReadingNotes\notes" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Ch06">
@@ -222,7 +226,7 @@
       <workItem from="1627903909096" duration="11173000" />
       <workItem from="1627948595195" duration="13511000" />
       <workItem from="1627988698211" duration="3706000" />
-      <workItem from="1627993840045" duration="363000" />
+      <workItem from="1627993840045" duration="1482000" />
     </task>
     <servers />
   </component>
