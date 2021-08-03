@@ -1,4 +1,5 @@
 # JavaConcurrencyInPracticeReadingNotes
+![alt Java并发编程实战](./images/《Java并发编程实战》封面.jpg "《Java并发编程实战》")  
 《Java并发编程实战》图书主页：<https://jcip.net/>  
 《Java并发编程实战》笔记
 # [第1章 简介](https://github.com/BenYu2021/JavaConcurrencyInPracticeReadingNotes/blob/main/notes/%E7%AC%AC01%E7%AB%A0%20%E7%AE%80%E4%BB%8B.md)
