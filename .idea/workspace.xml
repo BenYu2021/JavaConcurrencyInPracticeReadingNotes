@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6eff645f-f244-4840-bcd9-c1ab5cc7c810" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/notes/ThreadFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notes/第08章 线程池的使用.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch08/BoundedExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch08/ConcurrentPuzzleSolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch08/MyAppThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch08/MyThreadFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch08/Puzzle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch08/PuzzleNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch08/PuzzleSolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch08/SequentialPuzzleSolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch08/ThreadDeadLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch08/TimingThreadPool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch08/ValueLatch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +85,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3034483" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -231,7 +219,7 @@
       <workItem from="1627859685821" duration="6557000" />
       <workItem from="1627866828447" duration="12208000" />
       <workItem from="1627903909096" duration="11173000" />
-      <workItem from="1627948595195" duration="12290000" />
+      <workItem from="1627948595195" duration="12490000" />
     </task>
     <servers />
   </component>
@@ -250,6 +238,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="653" y="176" key="#OutOfTime_(1)/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1627829729663" />
+    <state x="552" y="178" key="#Project_Structure" timestamp="1627978136044">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#Project_Structure/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1627978136044" />
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1627520136488">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
