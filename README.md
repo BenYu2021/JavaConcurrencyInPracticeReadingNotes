@@ -1,7 +1,7 @@
 # JavaConcurrencyInPracticeReadingNotes
 ![alt Java并发编程实战](./images/《Java并发编程实战》封面.jpg "《Java并发编程实战》")  
-《Java并发编程实战》图书主页：<https://jcip.net/>  
-《Java并发编程实战》笔记
+#《Java并发编程实战》图书主页：<https://jcip.net/>  
+#《Java并发编程实战》笔记
 # [第1章 简介](./notes/第01章%20简介.md)
 # [第2章 线程安全性](./notes/第02章%20线程安全性.md)
 # [第3章 对象的共享](./notes/第03章%20对象的共享.md)

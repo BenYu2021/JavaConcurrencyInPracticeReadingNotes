@@ -2,11 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6eff645f-f244-4840-bcd9-c1ab5cc7c810" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/notes/第09章 图形界面与应用程序.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notes/第10章 避免活跃性危险.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notes/第11章 性能与可伸缩性.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notes/第12章 并发程序测试.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes/第04章 对象的组合.md" beforeDir="false" afterPath="$PROJECT_DIR$/notes/第04章 对象的组合.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes/第05章 基础构建模块.md" beforeDir="false" afterPath="$PROJECT_DIR$/notes/第05章 基础构建模块.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes/第06章 任务执行.md" beforeDir="false" afterPath="$PROJECT_DIR$/notes/第06章 任务执行.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes/第07章 取消与关闭.md" beforeDir="false" afterPath="$PROJECT_DIR$/notes/第07章 取消与关闭.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes/第08章 线程池的使用.md" beforeDir="false" afterPath="$PROJECT_DIR$/notes/第08章 线程池的使用.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes/第14章 构建自定义的同步工具.md" beforeDir="false" afterPath="$PROJECT_DIR$/notes/第14章 构建自定义的同步工具.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ch14/BaseBoundedBuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch14/BaseBoundedBuffer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ch14/BoundedBuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch14/BoundedBuffer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ch14/GrumpyBoundedBuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch14/GrumpyBoundedBuffer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ch14/SleepyBoundedBuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch14/SleepyBoundedBuffer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +124,20 @@
       <recent name="D:\code\JavaConcurrencyInPracticeReadingNotes\notes" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Ch06">
+  <component name="RunManager" selected="Application.BaseBoundedBuffer">
+    <configuration name="BaseBoundedBuffer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch14.BaseBoundedBuffer" />
+      <module name="JavaConcurrencyInPracticeReadingNotes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch14.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Ch06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.Ch06" />
       <module name="JavaConcurrencyInPracticeReadingNotes" />
@@ -170,26 +189,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TaskExecutionWebServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch06.TaskExecutionWebServer" />
-      <module name="JavaConcurrencyInPracticeReadingNotes" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ch07.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BaseBoundedBuffer" />
         <item itemvalue="Application.Ch06" />
         <item itemvalue="Application.PrimeGenerator" />
         <item itemvalue="Application.OutOfTime" />
         <item itemvalue="Application.OutOfTime (1)" />
-        <item itemvalue="Application.TaskExecutionWebServer" />
       </list>
     </recent_temporary>
   </component>
@@ -226,7 +232,8 @@
       <workItem from="1627903909096" duration="11173000" />
       <workItem from="1627948595195" duration="13511000" />
       <workItem from="1627988698211" duration="3706000" />
-      <workItem from="1627993840045" duration="1482000" />
+      <workItem from="1627993840045" duration="2970000" />
+      <workItem from="1628032972984" duration="5399000" />
     </task>
     <servers />
   </component>
@@ -237,10 +244,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="178" key="#Notifications" timestamp="1627903923398">
+    <state x="552" y="178" key="#Notifications" timestamp="1628036631607">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="178" key="#Notifications/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1627903923398" />
+    <state x="552" y="178" key="#Notifications/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1628036631607" />
     <state x="653" y="176" key="#OutOfTime_(1)" timestamp="1627829729663">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -253,10 +260,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1627520136488" />
-    <state x="763" y="229" width="1157" height="568" key="#com.intellij.ide.util.MemberChooser" timestamp="1627990461578">
+    <state x="763" y="229" width="1157" height="568" key="#com.intellij.ide.util.MemberChooser" timestamp="1628036179788">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="763" y="229" width="1157" height="568" key="#com.intellij.ide.util.MemberChooser/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1627990461578" />
+    <state x="763" y="229" width="1157" height="568" key="#com.intellij.ide.util.MemberChooser/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1628036179788" />
     <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1627426394832" />
     <state x="580" y="198" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1627426174475">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -306,20 +313,20 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1627518812196" />
-    <state x="-1497" y="0" width="1513" height="1027" key="dock-window-1" timestamp="1627989580986">
+    <state x="-1489" y="0" width="1434" height="1087" key="dock-window-1" timestamp="1628038218363">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="540" y="117" width="1182" height="1027" key="dock-window-1/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1627777802574" />
-    <state x="-1497" y="0" width="1513" height="1027" key="dock-window-1/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1627989580986" />
+    <state x="-1489" y="0" width="1434" height="1087" key="dock-window-1/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1628038218363" />
     <state x="735" y="7" width="1192" height="1027" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1627614778683" />
     <state x="-1308" y="0" width="1324" height="932" key="dock-window-2" timestamp="1627883479220">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1308" y="0" width="1324" height="932" key="dock-window-2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1627883479220" />
-    <state x="233" y="243" width="1415" height="797" key="find.popup" timestamp="1627977718826">
+    <state x="233" y="243" width="1415" height="797" key="find.popup" timestamp="1628036152685">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="233" y="243" width="1415" height="797" key="find.popup/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1627977718826" />
+    <state x="233" y="243" width="1415" height="797" key="find.popup/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1628036152685" />
     <state x="593" y="214" key="new project wizard" timestamp="1627732811096">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
