@@ -2,17 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6eff645f-f244-4840-bcd9-c1ab5cc7c810" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notes/第04章 对象的组合.md" beforeDir="false" afterPath="$PROJECT_DIR$/notes/第04章 对象的组合.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch14/ConditionBoundedBuffer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch14/OneShotLatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch14/SemaphoreOnLock.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notes/第05章 基础构建模块.md" beforeDir="false" afterPath="$PROJECT_DIR$/notes/第05章 基础构建模块.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notes/第06章 任务执行.md" beforeDir="false" afterPath="$PROJECT_DIR$/notes/第06章 任务执行.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notes/第07章 取消与关闭.md" beforeDir="false" afterPath="$PROJECT_DIR$/notes/第07章 取消与关闭.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notes/第08章 线程池的使用.md" beforeDir="false" afterPath="$PROJECT_DIR$/notes/第08章 线程池的使用.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notes/第14章 构建自定义的同步工具.md" beforeDir="false" afterPath="$PROJECT_DIR$/notes/第14章 构建自定义的同步工具.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ch14/BaseBoundedBuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch14/BaseBoundedBuffer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ch14/BoundedBuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch14/BoundedBuffer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ch14/GrumpyBoundedBuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch14/GrumpyBoundedBuffer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ch14/SleepyBoundedBuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch14/SleepyBoundedBuffer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -233,7 +228,8 @@
       <workItem from="1627948595195" duration="13511000" />
       <workItem from="1627988698211" duration="3706000" />
       <workItem from="1627993840045" duration="2970000" />
-      <workItem from="1628032972984" duration="5399000" />
+      <workItem from="1628032972984" duration="9460000" />
+      <workItem from="1628062240614" duration="6190000" />
     </task>
     <servers />
   </component>
@@ -260,10 +256,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1627520136488" />
-    <state x="763" y="229" width="1157" height="568" key="#com.intellij.ide.util.MemberChooser" timestamp="1628036179788">
+    <state x="763" y="229" width="1157" height="568" key="#com.intellij.ide.util.MemberChooser" timestamp="1628064738815">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="763" y="229" width="1157" height="568" key="#com.intellij.ide.util.MemberChooser/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1628036179788" />
+    <state x="763" y="229" width="1157" height="568" key="#com.intellij.ide.util.MemberChooser/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1628064738815" />
     <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1627426394832" />
     <state x="580" y="198" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1627426174475">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -273,25 +269,25 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="655" y="328" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1627426339463" />
-    <state width="1877" height="349" key="GridCell.Tab.0.bottom" timestamp="1627979763390">
+    <state width="1860" height="345" key="GridCell.Tab.0.bottom" timestamp="1628042441010">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="349" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1627979763390" />
+    <state width="1860" height="345" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1628042441010" />
     <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1627396576279" />
-    <state width="1877" height="349" key="GridCell.Tab.0.center" timestamp="1627979763390">
+    <state width="1860" height="345" key="GridCell.Tab.0.center" timestamp="1628042441009">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="349" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1627979763390" />
+    <state width="1860" height="345" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1628042441009" />
     <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1627396576279" />
-    <state width="1877" height="349" key="GridCell.Tab.0.left" timestamp="1627979763389">
+    <state width="1860" height="345" key="GridCell.Tab.0.left" timestamp="1628042441009">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="349" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1627979763389" />
+    <state width="1860" height="345" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1628042441009" />
     <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1627396576279" />
-    <state width="1877" height="349" key="GridCell.Tab.0.right" timestamp="1627979763390">
+    <state width="1860" height="345" key="GridCell.Tab.0.right" timestamp="1628042441009">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="349" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1627979763390" />
+    <state width="1860" height="345" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1628042441009" />
     <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1627396576279" />
     <state x="490" y="175" key="Maven.ArtifactSearchDialog" timestamp="1627395925116">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -313,20 +309,20 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1627518812196" />
-    <state x="-1489" y="0" width="1434" height="1087" key="dock-window-1" timestamp="1628038218363">
+    <state x="-1459" y="0" width="1466" height="1019" key="dock-window-1" timestamp="1628066128305">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="540" y="117" width="1182" height="1027" key="dock-window-1/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1627777802574" />
-    <state x="-1489" y="0" width="1434" height="1087" key="dock-window-1/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1628038218363" />
+    <state x="-1459" y="0" width="1466" height="1019" key="dock-window-1/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1628066128305" />
     <state x="735" y="7" width="1192" height="1027" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1627614778683" />
     <state x="-1308" y="0" width="1324" height="932" key="dock-window-2" timestamp="1627883479220">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1308" y="0" width="1324" height="932" key="dock-window-2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1627883479220" />
-    <state x="233" y="243" width="1415" height="797" key="find.popup" timestamp="1628036152685">
+    <state x="233" y="243" width="1415" height="797" key="find.popup" timestamp="1628066022801">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="233" y="243" width="1415" height="797" key="find.popup/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1628036152685" />
+    <state x="233" y="243" width="1415" height="797" key="find.popup/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1628066022801" />
     <state x="593" y="214" key="new project wizard" timestamp="1627732811096">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -335,9 +331,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1627805626055" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1627992984037">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1628040842568">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1627992984037" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1628040842568" />
   </component>
 </project>
