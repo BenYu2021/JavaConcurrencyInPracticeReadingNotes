@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6eff645f-f244-4840-bcd9-c1ab5cc7c810" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch15/CasCounter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch15/CasNumberRange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch15/ConcurrentStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch15/LinkedQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch15/SimulateCAS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notes/第14章 构建自定义的同步工具.md" beforeDir="false" afterPath="$PROJECT_DIR$/notes/第14章 构建自定义的同步工具.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch16/DoubleCheckedLocking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch16/EagerInitialization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch16/PossibleReordering.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch16/ResourceFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch16/SafeLazyInitialization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch16/UnsafeLazyInitialization.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notes/第15章 原子变量与非阻塞同步机制.md" beforeDir="false" afterPath="$PROJECT_DIR$/notes/第15章 原子变量与非阻塞同步机制.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ch14/SemaphoreOnLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch14/SemaphoreOnLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes/第16章 Java内存模型.md" beforeDir="false" afterPath="$PROJECT_DIR$/notes/第16章 Java内存模型.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,8 +99,10 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="ch08" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\code\JavaConcurrencyInPracticeReadingNotes\src\main\java" />
+      <recent name="D:\code\JavaConcurrencyInPracticeReadingNotes\src\main" />
+      <recent name="D:\code\JavaConcurrencyInPracticeReadingNotes\notes" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\code\JavaConcurrencyInPracticeReadingNotes\notes" />
@@ -109,19 +111,17 @@
       <recent name="D:\code\JavaConcurrencyInPracticeReadingNotes\src\main\lang" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ch16" />
       <recent name="ch08" />
       <recent name="ch07" />
       <recent name="test" />
       <recent name="ch06" />
-      <recent name="ch05jdk" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\code\JavaConcurrencyInPracticeReadingNotes\src\main\java" />
-      <recent name="D:\code\JavaConcurrencyInPracticeReadingNotes\src\main" />
-      <recent name="D:\code\JavaConcurrencyInPracticeReadingNotes\notes" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ch08" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BaseBoundedBuffer">
+  <component name="RunManager" selected="Application.PossibleReordering">
     <configuration name="BaseBoundedBuffer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ch14.BaseBoundedBuffer" />
       <module name="JavaConcurrencyInPracticeReadingNotes" />
@@ -148,11 +148,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OutOfTime (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="net.jcip.examples.OutOfTime" />
+    <configuration name="OutOfTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch06.OutOfTime" />
+      <module name="JavaConcurrencyInPracticeReadingNotes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="net.jcip.examples.*" />
+          <option name="PATTERN" value="ch07.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,12 +161,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OutOfTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch06.OutOfTime" />
+    <configuration name="PossibleReordering" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch16.PossibleReordering" />
       <module name="JavaConcurrencyInPracticeReadingNotes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch07.*" />
+          <option name="PATTERN" value="ch16.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -188,11 +189,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PossibleReordering" />
         <item itemvalue="Application.BaseBoundedBuffer" />
         <item itemvalue="Application.Ch06" />
         <item itemvalue="Application.PrimeGenerator" />
         <item itemvalue="Application.OutOfTime" />
-        <item itemvalue="Application.OutOfTime (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -232,7 +233,8 @@
       <workItem from="1627993840045" duration="2970000" />
       <workItem from="1628032972984" duration="9460000" />
       <workItem from="1628062240614" duration="6686000" />
-      <workItem from="1628083613286" duration="7912000" />
+      <workItem from="1628083613286" duration="8219000" />
+      <workItem from="1628128020096" duration="7051000" />
     </task>
     <servers />
   </component>
@@ -259,10 +261,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1627520136488" />
-    <state x="763" y="229" width="1157" height="568" key="#com.intellij.ide.util.MemberChooser" timestamp="1628092191499">
+    <state x="763" y="229" width="1157" height="568" key="#com.intellij.ide.util.MemberChooser" timestamp="1628151131656">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="763" y="229" width="1157" height="568" key="#com.intellij.ide.util.MemberChooser/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1628092191499" />
+    <state x="763" y="229" width="1157" height="568" key="#com.intellij.ide.util.MemberChooser/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1628151131656" />
     <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1627426394832" />
     <state x="580" y="198" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1627426174475">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -272,25 +274,25 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="655" y="328" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1627426339463" />
-    <state width="1860" height="345" key="GridCell.Tab.0.bottom" timestamp="1628042441010">
+    <state width="1860" height="345" key="GridCell.Tab.0.bottom" timestamp="1628152306234">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="345" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1628042441010" />
+    <state width="1860" height="345" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1628152306234" />
     <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1627396576279" />
-    <state width="1860" height="345" key="GridCell.Tab.0.center" timestamp="1628042441009">
+    <state width="1860" height="345" key="GridCell.Tab.0.center" timestamp="1628152306234">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="345" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1628042441009" />
+    <state width="1860" height="345" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1628152306234" />
     <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1627396576279" />
-    <state width="1860" height="345" key="GridCell.Tab.0.left" timestamp="1628042441009">
+    <state width="1860" height="345" key="GridCell.Tab.0.left" timestamp="1628152306234">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="345" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1628042441009" />
+    <state width="1860" height="345" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1628152306234" />
     <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1627396576279" />
-    <state width="1860" height="345" key="GridCell.Tab.0.right" timestamp="1628042441009">
+    <state width="1860" height="345" key="GridCell.Tab.0.right" timestamp="1628152306234">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="345" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1628042441009" />
+    <state width="1860" height="345" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1628152306234" />
     <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1627396576279" />
     <state x="490" y="175" key="Maven.ArtifactSearchDialog" timestamp="1627395925116">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -312,20 +314,20 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1627518812196" />
-    <state x="-1459" y="0" width="1466" height="1019" key="dock-window-1" timestamp="1628083897051">
-      <screen x="-1920" y="0" width="1920" height="1040" />
+    <state x="-861" y="103" width="1881" height="1019" key="dock-window-1" timestamp="1628155650426">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="540" y="117" width="1182" height="1027" key="dock-window-1/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1627777802574" />
-    <state x="-1459" y="0" width="1466" height="1019" key="dock-window-1/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1628083897051" />
+    <state x="-861" y="103" width="1881" height="1019" key="dock-window-1/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1628155650426" />
     <state x="735" y="7" width="1192" height="1027" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1627614778683" />
     <state x="-1308" y="0" width="1324" height="932" key="dock-window-2" timestamp="1627883479220">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1308" y="0" width="1324" height="932" key="dock-window-2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1627883479220" />
-    <state x="233" y="243" width="1415" height="797" key="find.popup" timestamp="1628092094949">
+    <state x="233" y="243" width="1415" height="797" key="find.popup" timestamp="1628154142475">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="233" y="243" width="1415" height="797" key="find.popup/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1628092094949" />
+    <state x="233" y="243" width="1415" height="797" key="find.popup/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1628154142475" />
     <state x="593" y="214" key="new project wizard" timestamp="1627732811096">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
